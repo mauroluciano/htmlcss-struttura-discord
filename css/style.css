@@ -1,5 +1,4 @@
 /*GENERICS*/
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +12,7 @@ header{
 
 .container{
     width: 900px;
-    margin: 20px auto;
+    margin: 0 auto;
     align-items: center;
 
 }
@@ -97,4 +96,68 @@ ul{
     height: 500px;
     justify-content: center;
     align-items: center;
+    margin:0;
+}
+
+.box2-bg{
+    background-color: #d3d3d3;
+    height: 600px;
+    align-items: center;
+    margin:0;
+}
+
+.card-green{
+    background-color: #228b22;
+    height: 500px;
+    justify-content: center;
+    width: 100%;
+}
+
+.box3-bg{
+    background-color: #23272a;
+    height: 400px;
+    justify-content: center;
+    margin:0;
+    width: 100%;
+    display: flex;
+}
+
+.box3-bg .type1{
+    flex-grow: 2;
+    background-color: #f08080;
+    height: 95%;
+}
+
+.box3-bg .type2{
+    flex-grow: 1;
+    background-color: #20b2aa;
+    height: 95%;
+}
+
+hr{
+    border: 1px solid lightblue;
+}
+
+footer{
+    background-color: #23272a;
+    height: 80px;
+    padding: 10px 0 0 0;
+}
+
+.end{
+    background-color: #7fffd4;
+    height: 60px;
+    justify-content: space-between;
+
+}
+
+.logo-footer{
+    background-color: #ffb6c1;
+    padding: 3px;
+}
+
+.button-footer{
+    background-color: #ffb6c1;
+    padding: 3px;
+
 }
