@@ -13,8 +13,7 @@ header{
 
 .container{
     width: 900px;
-    margin: auto auto;
-    background-color: #daa520;
+    margin: 20px auto;
     align-items: center;
 
 }
@@ -29,6 +28,7 @@ ul{
 
 ul a{
     text-decoration: none;
+    color: black;
 }
 
 .flex{
@@ -54,4 +54,47 @@ ul a{
 .login,
 li{
     padding: 10px;
+}
+
+.logo,
+.login,
+ul{
+    background-color: #daa520;
+}
+
+/* img bg */
+
+.img-bg{
+    background-color: #00008b;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pink{
+    background-color: #ee82ee;
+    height: 300px;
+    width: 700px;
+}
+
+.card-blu{
+    background-color: #1e90ff;
+    height: 300px;
+    justify-content: center;
+    width: 60%;
+}
+
+.card-pink{
+    background-color: #ffc0cb;
+    height: 300px;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.box1-bg{
+    background-color: #d3d3d3;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
 }
