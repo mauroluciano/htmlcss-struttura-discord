@@ -11,27 +11,47 @@ header{
     min-height: 50px;
 }
 
-.head{
+.container{
     width: 900px;
-    display: flex;
-    align-items: center;
-    border: 2px dashed  black;
-    margin: 0 auto;
+    margin: auto auto;
     background-color: #daa520;
+    align-items: center;
+
 }
 
-.head span,nav,button {
-    width: calc(100% / 3);
-}
-
-nav{
+ul{
     list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: center;
 }
 
-nav li{
-    display: inline-block;    
-}
 
-nav a{
+ul a{
     text-decoration: none;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.debug{
+    border: 2px dashed  black;
+}
+
+.login{
+    width: 20%;
+    justify-content: end;
+
+}
+.logo{
+    width: 20%;
+    display: block;
+}
+
+.logo,
+.login,
+li{
+    padding: 10px;
 }
