@@ -77,16 +77,23 @@ ul a:hover{
     height: 500px;
     justify-content: center;
     align-items: center;
+    background-image: url("./img/jumbo.png");
 }
 
-.box-pink{
-    background-color: #ee82ee;
+.box-jumbone{
     height: 300px;
     width: 700px;
+    color: white;
 }
 
-.box-pink h1{
-    
+.box-jumbone h1{
+    justify-content: center;
+    font-size: 56px;
+}
+.box-jumbone p{
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 30px;
 }
 
 
