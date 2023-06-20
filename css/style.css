@@ -73,7 +73,7 @@ ul a:hover{
 /* img bg */
 
 .img-bg{
-    background-color: #00008b;
+    background-color: #3161e0;
     height: 500px;
     justify-content: center;
     align-items: center;
@@ -84,6 +84,11 @@ ul a:hover{
     height: 300px;
     width: 700px;
 }
+
+.box-pink h1{
+    
+}
+
 
 .card-blu{
     background-color: #1e90ff;
