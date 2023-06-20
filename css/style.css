@@ -21,6 +21,7 @@ header{
     width: 1180px;
     margin: 0 auto;
     align-items: center;
+    justify-content: right;
 }
 
 ul{
@@ -148,6 +149,8 @@ ul a:hover{
     font-size: 20px;
     display: block;
     margin-top: 20px;
+    text-align: justify;
+
 }
 
 .box{
@@ -188,6 +191,7 @@ ul a:hover{
     font-size: 20px;
     display: block;
     margin-top: 20px;
+    text-align: justify;
 }
 
 .card-box2-dx{
@@ -206,14 +210,47 @@ ul a:hover{
 /* close box 2*/
 
 
+/* box 3*/
+
+.box3{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box3 .box3-big{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box3 .box3-small{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.box{
+    width: 65%;
+    margin-top: 30px;
+}
 
 
+.card-box3-sx{
+    background-image: url("../img/item3.svg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 60%;
+}
+
+.card-box3-dx{
+    height: 500px;
+    width: 40%;
+}
+
+/* close box 3*/
 
 
-
-
-
-
+/* box 4*/
 
 .card-green{
     background-color: #228b22;
@@ -222,6 +259,8 @@ ul a:hover{
     width: 100%;
 }
 
+
+/* close box 4*/
 .box3-bg{
     background-color: #23272a;
     height: 400px;
