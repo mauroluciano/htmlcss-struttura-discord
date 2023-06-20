@@ -231,7 +231,7 @@ ul a:hover{
 
 .box{
     width: 65%;
-    margin-top: 30px;
+    margin: 30px 0 0 30px;
 }
 
 
@@ -247,17 +247,39 @@ ul a:hover{
     width: 40%;
 }
 
+
 /* close box 3*/
 
 
 /* box 4*/
 
-.card-green{
-    background-color: #228b22;
-    height: 500px;
+.card-box4{
+    width: 100%;
     justify-content: center;
+    text-align: center;
+}
+.card-box4 p{
     width: 100%;
 }
+.card-box4 img{
+    margin: 20px auto;    
+    height: 100%;
+}
+
+.box4 .box4-big{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box4 .box4-small{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+
 
 
 /* close box 4*/
