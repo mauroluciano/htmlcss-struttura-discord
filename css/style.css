@@ -14,11 +14,13 @@ header{
     min-height: 50px;
 }
 
+/* open HEADER */
+
+
 .container{
-    width: 900px;
+    width: 1180px;
     margin: 0 auto;
     align-items: center;
-
 }
 
 ul{
@@ -62,17 +64,19 @@ ul a:hover{
      box-shadow: 3px 3px 3px black;
 }
 
-
-
 .logo{
     display: block;
     padding: 7px 16px;
-
 }
+
+/* close HEADER */
 
 /* img bg */
 
 .img-bg{
+    background-image: url("../img/jumbo.png");
+    background-position: center;
+    background-size: cover;
     background-color: #3161e0;
     height: 500px;
     justify-content: center;
@@ -83,7 +87,6 @@ ul a:hover{
     height: 300px;
     width: 700px;
     color: white;
-
 }
 
 .box-jumbone h1{
@@ -96,36 +99,121 @@ ul a:hover{
     line-height: 30px;
 }
 
+/* close img bg */
 
-.card-blu{
-    background-color: #1e90ff;
-    height: 300px;
+/*  BUTTON  */
+
+.button{
+    width: 100%;
+    min-height: 80px;
     justify-content: center;
+    margin-top: 30px;
+
+}
+
+.button input {
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 3px 10px;
+    border: 0;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.button .discord {
+    background-color: #23272a;
+    color: white;
+}
+
+.button input:hover {
+    box-shadow: 3px 3px 3px black;
+}
+
+/*  close BUTTON  */
+
+
+/* box 1*/
+
+.box1{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box1 .box1-big{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box1 .box1-small{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+.box{
+    width: 65%;
+    margin-top: 30px;
+}
+
+
+.card-box1-sx{
+    background-image: url("../img/item1.svg");
+    background-repeat: no-repeat;
+    height: 500px;
     width: 60%;
 }
 
-.card-pink{
-    background-color: #ffc0cb;
-    height: 300px;
-    justify-content: center;
+.card-box1-dx{
+    height: 500px;
     width: 40%;
-
 }
 
-.box1-bg{
-    background-color: #d3d3d3;
+/* close box 1*/
+
+
+
+/* box 2*/
+
+.box2{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box2 .box2-big{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box2 .box2-small{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+.card-box2-dx{
+    background-image: url("../img/item2.svg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 60%;
+}
+
+.card-box2-sx{
     height: 500px;
     justify-content: center;
-    align-items: center;
-    margin:0;
+    width: 40%;
 }
 
-.box2-bg{
-    background-color: #d3d3d3;
-    height: 600px;
-    align-items: center;
-    margin:0;
-}
+/* close box 2*/
+
+
+
+
+
+
+
+
+
+
 
 .card-green{
     background-color: #228b22;
