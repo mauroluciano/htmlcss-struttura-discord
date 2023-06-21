@@ -277,13 +277,12 @@ ul a:hover{
     margin-top: 20px;
 }
 
-
-
-
-
-
 /* close box 4*/
-.box3-bg{
+
+
+/* open box 5*/
+
+.box5{
     background-color: #23272a;
     height: 400px;
     justify-content: center;
@@ -292,17 +291,31 @@ ul a:hover{
     display: flex;
 }
 
-.box3-bg .type1{
+.box5 .type1{
     flex-grow: 2;
     background-color: #f08080;
     height: 95%;
 }
 
-.box3-bg .type2{
+.box5 .type2{
     flex-grow: 1;
     background-color: #20b2aa;
     height: 95%;
+    text-align: center;
+    margin: 0;
 }
+
+.type2 span{
+    display: block;
+}
+
+
+/* close box 5*/
+
+
+
+
+
 
 hr{
     border: 1px solid lightblue;
