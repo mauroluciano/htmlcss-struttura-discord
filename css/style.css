@@ -305,8 +305,34 @@ ul a:hover{
     margin: 0;
 }
 
+.type2 p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
 .type2 span{
     display: block;
+    margin-bottom: 20px;
+}
+
+.type2 a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.type2 a:hover {
+    text-decoration: underline;
+}
+
+
+
+.type2 p{
+    color: #5865f2;
+    font-weight: bold;
+    margin-bottom: 20px;
+
 }
 
 
